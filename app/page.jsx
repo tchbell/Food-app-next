@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <>
       <header className={styles.header}>
-       <ImageSlideshow />
+        <div className={styles.slideshow}>
+          <ImageSlideshow />
+        </div>
+
         <div>
           <div className={styles.hero}>
             <h1>NextLevel Food for NextLevel Foodies</h1>
